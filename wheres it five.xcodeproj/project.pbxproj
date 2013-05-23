@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12CC919174DA2230063ED09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12CC918174DA2230063ED09 /* UIKit.framework */; };
+		D12CC91B174DA2230063ED09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12CC91A174DA2230063ED09 /* Foundation.framework */; };
+		D12CC91D174DA2230063ED09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12CC91C174DA2230063ED09 /* CoreGraphics.framework */; };
+		D12CC923174DA2230063ED09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D12CC921174DA2230063ED09 /* InfoPlist.strings */; };
+		D12CC925174DA2230063ED09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D12CC924174DA2230063ED09 /* main.m */; };
+		D12CC929174DA2230063ED09 /* fiveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D12CC928174DA2230063ED09 /* fiveAppDelegate.m */; };
+		D12CC92C174DA2230063ED09 /* fiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12CC92B174DA2230063ED09 /* fiveViewController.m */; };
+		D12CC92F174DA2230063ED09 /* fiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D12CC92D174DA2230063ED09 /* fiveViewController.xib */; };
+		D12CC937174DA2240063ED09 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12CC936174DA2240063ED09 /* SenTestingKit.framework */; };
+		D12CC938174DA2240063ED09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12CC918174DA2230063ED09 /* UIKit.framework */; };
+		D12CC939174DA2240063ED09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12CC91A174DA2230063ED09 /* Foundation.framework */; };
+		D12CC941174DA2240063ED09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D12CC93F174DA2240063ED09 /* InfoPlist.strings */; };
+		D12CC944174DA2240063ED09 /* wheres_it_fiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D12CC943174DA2240063ED09 /* wheres_it_fiveTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D12CC93A174DA2240063ED09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12CC90B174DA2230063ED09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12CC913174DA2230063ED09;
+			remoteInfo = "wheres it five";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D12CC914174DA2230063ED09 /* wheres it five.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wheres it five.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12CC918174DA2230063ED09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D12CC91A174DA2230063ED09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D12CC91C174DA2230063ED09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D12CC920174DA2230063ED09 /* wheres it five-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wheres it five-Info.plist"; sourceTree = "<group>"; };
+		D12CC922174DA2230063ED09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D12CC924174DA2230063ED09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D12CC926174DA2230063ED09 /* wheres it five-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wheres it five-Prefix.pch"; sourceTree = "<group>"; };
+		D12CC927174DA2230063ED09 /* fiveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fiveAppDelegate.h; sourceTree = "<group>"; };
+		D12CC928174DA2230063ED09 /* fiveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fiveAppDelegate.m; sourceTree = "<group>"; };
+		D12CC92A174DA2230063ED09 /* fiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fiveViewController.h; sourceTree = "<group>"; };
+		D12CC92B174DA2230063ED09 /* fiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fiveViewController.m; sourceTree = "<group>"; };
+		D12CC92E174DA2230063ED09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/fiveViewController.xib; sourceTree = "<group>"; };
+		D12CC935174DA2240063ED09 /* wheres it fiveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wheres it fiveTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12CC936174DA2240063ED09 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D12CC93E174DA2240063ED09 /* wheres it fiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wheres it fiveTests-Info.plist"; sourceTree = "<group>"; };
+		D12CC940174DA2240063ED09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D12CC942174DA2240063ED09 /* wheres_it_fiveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wheres_it_fiveTests.h; sourceTree = "<group>"; };
+		D12CC943174DA2240063ED09 /* wheres_it_fiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wheres_it_fiveTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12CC911174DA2230063ED09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12CC919174DA2230063ED09 /* UIKit.framework in Frameworks */,
+				D12CC91B174DA2230063ED09 /* Foundation.framework in Frameworks */,
+				D12CC91D174DA2230063ED09 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12CC931174DA2240063ED09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12CC937174DA2240063ED09 /* SenTestingKit.framework in Frameworks */,
+				D12CC938174DA2240063ED09 /* UIKit.framework in Frameworks */,
+				D12CC939174DA2240063ED09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12CC909174DA2230063ED09 = {
+			isa = PBXGroup;
+			children = (
+				D12CC91E174DA2230063ED09 /* wheres it five */,
+				D12CC93C174DA2240063ED09 /* wheres it fiveTests */,
+				D12CC917174DA2230063ED09 /* Frameworks */,
+				D12CC915174DA2230063ED09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12CC915174DA2230063ED09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12CC914174DA2230063ED09 /* wheres it five.app */,
+				D12CC935174DA2240063ED09 /* wheres it fiveTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12CC917174DA2230063ED09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D12CC918174DA2230063ED09 /* UIKit.framework */,
+				D12CC91A174DA2230063ED09 /* Foundation.framework */,
+				D12CC91C174DA2230063ED09 /* CoreGraphics.framework */,
+				D12CC936174DA2240063ED09 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D12CC91E174DA2230063ED09 /* wheres it five */ = {
+			isa = PBXGroup;
+			children = (
+				D12CC927174DA2230063ED09 /* fiveAppDelegate.h */,
+				D12CC928174DA2230063ED09 /* fiveAppDelegate.m */,
+				D12CC92A174DA2230063ED09 /* fiveViewController.h */,
+				D12CC92B174DA2230063ED09 /* fiveViewController.m */,
+				D12CC92D174DA2230063ED09 /* fiveViewController.xib */,
+				D12CC91F174DA2230063ED09 /* Supporting Files */,
+			);
+			path = "wheres it five";
+			sourceTree = "<group>";
+		};
+		D12CC91F174DA2230063ED09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D12CC920174DA2230063ED09 /* wheres it five-Info.plist */,
+				D12CC921174DA2230063ED09 /* InfoPlist.strings */,
+				D12CC924174DA2230063ED09 /* main.m */,
+				D12CC926174DA2230063ED09 /* wheres it five-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D12CC93C174DA2240063ED09 /* wheres it fiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				D12CC942174DA2240063ED09 /* wheres_it_fiveTests.h */,
+				D12CC943174DA2240063ED09 /* wheres_it_fiveTests.m */,
+				D12CC93D174DA2240063ED09 /* Supporting Files */,
+			);
+			path = "wheres it fiveTests";
+			sourceTree = "<group>";
+		};
+		D12CC93D174DA2240063ED09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D12CC93E174DA2240063ED09 /* wheres it fiveTests-Info.plist */,
+				D12CC93F174DA2240063ED09 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12CC913174DA2230063ED09 /* wheres it five */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12CC947174DA2240063ED09 /* Build configuration list for PBXNativeTarget "wheres it five" */;
+			buildPhases = (
+				D12CC910174DA2230063ED09 /* Sources */,
+				D12CC911174DA2230063ED09 /* Frameworks */,
+				D12CC912174DA2230063ED09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wheres it five";
+			productName = "wheres it five";
+			productReference = D12CC914174DA2230063ED09 /* wheres it five.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D12CC934174DA2240063ED09 /* wheres it fiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12CC94A174DA2240063ED09 /* Build configuration list for PBXNativeTarget "wheres it fiveTests" */;
+			buildPhases = (
+				D12CC930174DA2240063ED09 /* Sources */,
+				D12CC931174DA2240063ED09 /* Frameworks */,
+				D12CC932174DA2240063ED09 /* Resources */,
+				D12CC933174DA2240063ED09 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12CC93B174DA2240063ED09 /* PBXTargetDependency */,
+			);
+			name = "wheres it fiveTests";
+			productName = "wheres it fiveTests";
+			productReference = D12CC935174DA2240063ED09 /* wheres it fiveTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12CC90B174DA2230063ED09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = five;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ben-Church";
+			};
+			buildConfigurationList = D12CC90E174DA2230063ED09 /* Build configuration list for PBXProject "wheres it five" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D12CC909174DA2230063ED09;
+			productRefGroup = D12CC915174DA2230063ED09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12CC913174DA2230063ED09 /* wheres it five */,
+				D12CC934174DA2240063ED09 /* wheres it fiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12CC912174DA2230063ED09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12CC923174DA2230063ED09 /* InfoPlist.strings in Resources */,
+				D12CC92F174DA2230063ED09 /* fiveViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12CC932174DA2240063ED09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12CC941174DA2240063ED09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D12CC933174DA2240063ED09 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12CC910174DA2230063ED09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12CC925174DA2230063ED09 /* main.m in Sources */,
+				D12CC929174DA2230063ED09 /* fiveAppDelegate.m in Sources */,
+				D12CC92C174DA2230063ED09 /* fiveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12CC930174DA2240063ED09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12CC944174DA2240063ED09 /* wheres_it_fiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12CC93B174DA2240063ED09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12CC913174DA2230063ED09 /* wheres it five */;
+			targetProxy = D12CC93A174DA2240063ED09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D12CC921174DA2230063ED09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12CC922174DA2230063ED09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D12CC92D174DA2230063ED09 /* fiveViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12CC92E174DA2230063ED09 /* en */,
+			);
+			name = fiveViewController.xib;
+			sourceTree = "<group>";
+		};
+		D12CC93F174DA2240063ED09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12CC940174DA2240063ED09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12CC945174DA2240063ED09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D12CC946174DA2240063ED09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12CC948174DA2240063ED09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wheres it five/wheres it five-Prefix.pch";
+				INFOPLIST_FILE = "wheres it five/wheres it five-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D12CC949174DA2240063ED09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wheres it five/wheres it five-Prefix.pch";
+				INFOPLIST_FILE = "wheres it five/wheres it five-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D12CC94B174DA2240063ED09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wheres it five.app/wheres it five";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wheres it five/wheres it five-Prefix.pch";
+				INFOPLIST_FILE = "wheres it fiveTests/wheres it fiveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D12CC94C174DA2240063ED09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wheres it five.app/wheres it five";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wheres it five/wheres it five-Prefix.pch";
+				INFOPLIST_FILE = "wheres it fiveTests/wheres it fiveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12CC90E174DA2230063ED09 /* Build configuration list for PBXProject "wheres it five" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12CC945174DA2240063ED09 /* Debug */,
+				D12CC946174DA2240063ED09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12CC947174DA2240063ED09 /* Build configuration list for PBXNativeTarget "wheres it five" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12CC948174DA2240063ED09 /* Debug */,
+				D12CC949174DA2240063ED09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D12CC94A174DA2240063ED09 /* Build configuration list for PBXNativeTarget "wheres it fiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12CC94B174DA2240063ED09 /* Debug */,
+				D12CC94C174DA2240063ED09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12CC90B174DA2230063ED09 /* Project object */;
+}
