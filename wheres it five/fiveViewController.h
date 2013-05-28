@@ -9,5 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @interface fiveViewController : UIViewController
+{
+    int timeIndex;
+    NSDateFormatter *formatter;
+    NSString *dateString;
+    
+    NSMutableArray *locations;
+    
+    //view objects
+    IBOutlet UILabel *locationField;
+    
+    
+}
 
+- (IBAction)findLocation:(id)sender;
 @end
